@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenTV - Hashtag Channels</title>
+    <!-- Include any necessary CSS libraries or stylesheets -->
+</head>
+<body>
+    <h1>GreenTV - Hashtag Channels</h1>
+    <div id="channel-list">
+        <!-- Channel list will be populated dynamically using PHP -->
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            // Fetch channels using PHP and populate the channel list
+            $.ajax({
+                url: 'get_channels.php',
+                type: 'GET',
+                success: function(data) {
+                    $('#channel-list').html(data);
+                }
+            });
+        });
+    </script>
+</body>
+</html>
