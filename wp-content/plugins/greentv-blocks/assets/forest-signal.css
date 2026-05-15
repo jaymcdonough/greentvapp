@@ -1,0 +1,22 @@
+/* GreenTV — Forest Signal design tokens */
+:root {
+  --gtv-forest-deep:   #1a3d20;
+  --gtv-forest:        #1a6b36;
+  --gtv-canopy:        #2d9e6b;
+  --gtv-amber:         #d4a842;
+  --gtv-parchment:     #f7f3ec;
+  --gtv-moss:          #e4f0e0;
+  --gtv-bark:          #1c2c1a;
+  --gtv-border:        #d8d0c0;
+  --gtv-muted:         #7a8a74;
+  --gtv-body-text:     #2a3a28;
+  --gtv-radius-sm:     6px;
+  --gtv-radius-md:     10px;
+  --gtv-radius-lg:     14px;
+  --gtv-font-serif:    Georgia, "Times New Roman", serif;
+  --gtv-font-sans:     -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --gtv-font-mono:     "Courier New", monospace;
+}
+
+.greentv-block * { box-sizing: border-box; }
+.greentv-block { font-family: var(--gtv-font-sans); }
