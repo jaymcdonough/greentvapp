@@ -1,0 +1,55 @@
+# WordPress core files (tracked upstream)
+/wp-admin/
+/wp-includes/
+/index.php
+/wp-activate.php
+/wp-blog-header.php
+/wp-comments-post.php
+/wp-cron.php
+/wp-links-opml.php
+/wp-load.php
+/wp-login.php
+/wp-mail.php
+/wp-settings.php
+/wp-signup.php
+/wp-trackback.php
+/xmlrpc.php
+
+# WordPress config
+/wp-config.php
+
+# Stock WordPress files
+/license.txt
+/readme.html
+/wp-config-sample.php
+
+# Stock plugins
+/wp-content/plugins/akismet/
+/wp-content/plugins/hello.php
+
+# Stock themes
+/wp-content/themes/twentytwentythree/
+/wp-content/themes/twentytwentyfour/
+/wp-content/themes/twentytwentyfive/
+
+# Media uploads
+/wp-content/uploads/
+
+# Temporary & cache
+/wp-content/cache/
+/wp-content/backup-*
+.DS_Store
+*.log
+*.swp
+*.swo
+*~
+
+# Node modules and build artifacts
+node_modules/
+dist/
+build/
+
+# Environment files
+.env
+.env.local
+.env.*.local
