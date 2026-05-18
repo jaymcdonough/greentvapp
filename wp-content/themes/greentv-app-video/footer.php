@@ -1,0 +1,1 @@
+<footer class="gtva-footer"><div class="gtva-container gtva-footer__in"><strong>GreenTV App</strong><span>Streaming environmental videos, clean-tech stories, and community-powered media.</span><span>© <?php echo esc_html(date('Y')); ?></span></div></footer><?php wp_footer(); ?></body></html>
