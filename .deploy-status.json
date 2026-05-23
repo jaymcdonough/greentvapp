@@ -1,8 +1,8 @@
 {
-    "last_check": "2026-05-23 00:15:01",
+    "last_check": "2026-05-23 06:15:01",
     "environment": "dev",
-    "uptime": "up 5 hours, 0 minutes",
+    "uptime": "up 11 hours, 0 minutes",
     "disk_usage": "21%",
-    "memory": "5.4Gi/15Gi",
-    "load": "0.08 0.60 0.72"
+    "memory": "4.3Gi/15Gi",
+    "load": "0.50 0.53 0.51"
 }
