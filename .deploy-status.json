@@ -1,8 +1,8 @@
 {
-    "last_check": "2026-05-24 18:15:01",
+    "last_check": "2026-05-25 00:15:01",
     "environment": "stage",
-    "uptime": "up 1 day, 23 hours, 0 minutes",
-    "disk_usage": "22%",
-    "memory": "4.6Gi/15Gi",
-    "load": "1.04 0.70 0.61"
+    "uptime": "up 2 days, 5 hours, 0 minutes",
+    "disk_usage": "23%",
+    "memory": "6.9Gi/15Gi",
+    "load": "0.13 0.36 0.50"
 }
